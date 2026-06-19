@@ -1,0 +1,12 @@
+{
+  "name": "codex-live-switch",
+  "version": "0.2.0",
+  "description": "Live model switcher for Codex custom providers.",
+  "skills": "./skills",
+  "hooks": "./hooks/hooks.json",
+  "interface": {
+    "displayName": "Codex Live Switch",
+    "shortDescription": "Switch Codex models without restarting.",
+    "category": "Productivity"
+  }
+}

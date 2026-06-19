@@ -1,0 +1,10 @@
+{
+  "SessionStart": [
+    {
+      "name": "codex-live-switch-status",
+      "command": "python3 scripts/status.py",
+      "runInBackground": true,
+      "continueOnError": true
+    }
+  ]
+}

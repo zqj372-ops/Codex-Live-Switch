@@ -1,0 +1,52 @@
+{
+  "fast": {
+    "label": "极速改代码",
+    "provider_id": "minimax",
+    "provider_name": "MiniMax",
+    "base_url": "https://api.minimax.io/v1",
+    "env_key": "MINIMAX_API_KEY",
+    "wire_api": "chat_completions",
+    "model": "MiniMax-M2.7-highspeed",
+    "description": "适合快速修 bug、改 UI、小范围代码修改"
+  },
+  "m3": {
+    "label": "复杂项目 / 长上下文",
+    "provider_id": "minimax",
+    "provider_name": "MiniMax",
+    "base_url": "https://api.minimax.io/v1",
+    "env_key": "MINIMAX_API_KEY",
+    "wire_api": "chat_completions",
+    "model": "MiniMax-M3",
+    "description": "适合长上下文、多文件分析、复杂项目重构"
+  },
+  "cheap": {
+    "label": "省钱模式",
+    "provider_id": "deepseek",
+    "provider_name": "DeepSeek",
+    "base_url": "https://api.deepseek.com",
+    "env_key": "DEEPSEEK_API_KEY",
+    "wire_api": "chat_completions",
+    "model": "deepseek-chat",
+    "description": "适合解释报错、生成普通代码、低成本任务"
+  },
+  "openrouter": {
+    "label": "OpenRouter 备用",
+    "provider_id": "openrouter",
+    "provider_name": "OpenRouter",
+    "base_url": "https://openrouter.ai/api/v1",
+    "env_key": "OPENROUTER_API_KEY",
+    "wire_api": "chat_completions",
+    "model": "openrouter/auto",
+    "description": "适合备用路由和多供应商 fallback"
+  },
+  "local": {
+    "label": "本地 Ollama",
+    "provider_id": "local_ollama",
+    "provider_name": "Ollama",
+    "base_url": "http://localhost:11434/v1",
+    "env_key": null,
+    "wire_api": "chat_completions",
+    "model": "qwen2.5-coder:32b",
+    "description": "适合本地离线代码任务"
+  }
+}
