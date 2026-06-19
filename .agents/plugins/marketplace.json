@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    {
+      "name": "codex-live-switch",
+      "path": "~/.codex/plugins/codex-live-switch",
+      "description": "Switch Codex models without restarting."
+    }
+  ]
+}
